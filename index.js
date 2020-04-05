@@ -17,3 +17,14 @@ let i=0;
   }
   return newArray
 };// add solution here
+
+function iLoveTheBeatles(number){
+  let newArray=[];
+  do{
+    let string="I love the Beatles!";
+    newArray.push(string);
+    number++
+  }
+  while(number<15);
+  return newArray;
+};
